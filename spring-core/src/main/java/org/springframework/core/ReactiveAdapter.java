@@ -119,6 +119,7 @@ public class ReactiveAdapter {
 	 */
 	public Object fromPublisher(Publisher<?> publisher) {
 		return this.fromPublisherFunction.apply(publisher);
+System.out.println("hi");
 	}
 
 }
